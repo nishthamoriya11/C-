@@ -62,14 +62,52 @@ The project uses two classes:
 This keeps the train data and the operations related to it separate.
 
 ---
+## 3. Vehicle Registry System
+A C++ command-line program for managing a registry of different types of vehicles, demonstrating all major types of inheritance.
 
-## Technologies Used
+**How it works**
+When the program starts, it shows a menu where you can choose what operation you want to perform.
+
+* Add New Vehicle (of a different type)
+* View All Vehicles
+* Search Vehicle by ID
+* Exit
+
+When adding a vehicle, the user selects the specific vehicle type (Car, Electric Car, Aircraft, Flying Car, Sport Car, Sedan, or SUV) and enters the relevant details for that type.
+
+Each vehicle record contains (depending on type):
+
+* Vehicle ID
+* Manufacturer
+* Model
+* Year
+* Fuel Type (for car-based vehicles)
+* Battery Capacity (for electric vehicles)
+* Flight Range (for aircraft-based vehicles)
+* Top Speed (for sport cars)
+
+### Output
+https://drive.google.com/drive/folders/1T54UyJlu_uxIeErwu35Eq7ytv7UfWRbF?usp=sharing
+
+### Main Concept Used
+The project uses a base class and multiple derived classes:
+
+* `Vehicle` – stores common details shared by every vehicle (ID, manufacturer, model, year).
+* `Car`, `ElectricCar`, `Aircraft`, `FlyingCar`, `SportCar`, `Sedan`, `SUV` – derived classes that extend `Vehicle` with their own specific attributes, demonstrating Single, Multilevel, Multiple, and Hierarchical inheritance.
+* `VehicleRegistry` – manages the collection of vehicles, handling adding, displaying, and searching operations separately from the vehicle data itself.
+
+
+## Technologies used
 
 * C++
 * Object-Oriented Programming (OOP)
-* Classes and Objects
-* Functions
-* Loops and Conditional Statements
+* All Types of Inheritance (Single, Multiple, Multilevel, Hierarchical)
+* Virtual Functions & Runtime Polymorphism
+* Dynamic Memory Allocation (`new` / `delete`)
+* Pointers & Array of Pointer Objects
+* Static Members
+* Encapsulation (Getters & Setters)
+
 
 ## Purpose
 
