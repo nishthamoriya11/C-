@@ -63,7 +63,7 @@ class train{
         }
         // all input details which obtained from user
         void inputTrainDetails(){
-            cout<<"Enter Train number: ";
+            cout<<  "Enter Train number: ";
             cin>> trainNumber;
             cin.ignore();   
             cout<<"Enter train name: ";
