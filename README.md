@@ -97,17 +97,58 @@ The project uses a base class and multiple derived classes:
 * `VehicleRegistry` – manages the collection of vehicles, handling adding, displaying, and searching operations separately from the vehicle data itself.
 
 
-## Technologies used
+## Project 4: Banking System
 
-* C++
-* Object-Oriented Programming (OOP)
-* All Types of Inheritance (Single, Multiple, Multilevel, Hierarchical)
-* Virtual Functions & Runtime Polymorphism
-* Dynamic Memory Allocation (`new` / `delete`)
-* Pointers & Array of Pointer Objects
-* Static Members
-* Encapsulation (Getters & Setters)
+A simple C++ command-line banking system developed to demonstrate **polymorphism, encapsulation, and inheritance**. The system manages different types of bank accounts and allows transactions such as depositing and withdrawing money.
 
+### Account Types
+
+The project contains a common base class `bankAccount` and three derived account classes:
+
+- `SavingAccount`
+- `CheckingAccount`
+- `FixedDepositAccount`
+
+### Features
+
+- Display all account details
+- Deposit money
+- Withdraw money
+- Calculate interest for Savings and Fixed Deposit accounts
+- Check overdraft limit for Checking Account
+- Search account using account number
+- Menu-driven interface
+
+  
+
+  ### Output
+  https://drive.google.com/drive/folders/1UTJKV4Cs1gOPHedaCmoMDO4EvXEGk-S9?usp=sharing
+
+## Technologies Used
+
+- C++
+- Object-Oriented Programming (OOP)
+- Classes & Objects
+- Constructors & Destructors
+- Constructor Initializer List
+- Functions & Member Functions
+- Function Overriding
+- All Types of Inheritance (Single, Multiple, Multilevel, Hierarchical)
+- Virtual Functions & Runtime Polymorphism
+- Virtual Destructor
+- Encapsulation (Getters & Setters)
+- Access Specifiers (`private`, `protected`, `public`)
+- Static Members
+- Arrays & Arrays of Objects
+- Pointers & Array of Pointer Objects
+- Character Pointers & Dynamic Character Arrays
+- Dynamic Memory Allocation (`new` / `delete`)
+- String Handling (`strlen()` & `strcpy()`)
+- Conditional Statements
+- Loops
+- `switch` Statement
+- Menu-driven Programming
+- CLI (Command-Line Interface)
 
 ## Purpose
 
